@@ -1,7 +1,7 @@
 <template>
   <div class="leftNav">
     <ul>
-      <li @click="routerFun('/')"
+      <li @click="routerFun('/pos')"
       :class="path=='pos'?'activeLi':''">
         <i class="icon iconfont icon-goumai"></i>
         <div>收银</div>
@@ -49,7 +49,7 @@
   .leftNav{
     color: #fff;
     font-size: 10px;
-    height: 100%;
+    height: 100vh;
     background-color: #1D8ce0;
     float: left;
     width: 5%;

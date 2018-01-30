@@ -156,6 +156,7 @@
     mounted() {
       const orderHeight = document.body.clientHeight;
       document.getElementById('order-list').style.height = orderHeight + 'px';
+
     },
     methods:{
       addGoods(good){
